@@ -4,23 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="../css/style.css" />
     <title>Search</title>
   </head>
   <body>
     <div>
       <div id="navbar">
         <a href="./ImageSearch.html">
-          <button>image</button>
+          <button class="btn btn-primary" type="button">image</button>
         </a>
         <a href="./Advanced.html">
-          <button>Advanced</button>
+          <button class="btn btn-primary" type="button">Advanced</button>
         </a>
       </div>
       <div id="container">
         <form action="https://google.com/search">
           <img
-            src="./googlelogo_color_272x92dp.png"
+            src="../pic/googlelogo_color_272x92dp.png"
             alt="google_search_pic"
             class="Logo"
           />
@@ -28,7 +31,6 @@
             <input type="search" name="q" id="searchBar" /><br />
           </div>
           <div>
-            <h1>this is version 2</h1>
             <center>
               <input type="submit" name="btnK" value="Google Search" />
               <input type="submit" name="btnI" value="I am feeling Luckey" />
